@@ -23,17 +23,17 @@
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <!--Logo Image goes here-->
-                    <img src="img/taco.png" class="img-fluid"/>
+                    <img src="img/lenos_rico_taco.png" class="img-fluid"/>
                 </div>
-                <div class="col mt-4">
+                <div class="col text-center">
                     <h1>Leno's Rico Taco</h1>
                 </div>
-                <div class="col col-md-4 col-xl-2 mt-4">
-                    <a class="btn btn-warning btn-lg text-nowrap" id="orderButton">Order Now</a>
+                <div class="col mt-3">
+                    <a class="btn btn-success btn-lg text-nowrap fa fa-shopping-bag float-right" id="orderButton"> Order Now</a>
                 </div>
             </div>
         </div>
-    </header> 
+    </header>  
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -65,14 +65,124 @@
                     <li class="breadcrumb-item active">Contact</li>
                 </ol>
                 <h2>Contact Us</h2>
-                <hr/>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <h5>Our Locations</h5>
+                <address>
+                    549 W Valley Blvd <br/>
+                    Colton CA, 92324 <br/>
+                    U.S.A
+                </address>
+            </div>
+            <div class="col">
+                <a role="button" class="btn btn-link" href=""><i class="fa fa-phone"></i>1-909-555-1234</a><br/>
+                <a role="button" class="btn btn-link" href=""><i class="fa fa-envelope"></i>placeholder@email.com</a>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-sm-4">
+                <h5>Our Hours</h5>
+                <time>
+                    Sunday: CLOSED <br/>
+                    Monday: 8AM-8PM <br/>
+                    Tuesday: 8AM-8PM <br/>
+                    Wednesday: 8AM-8PM <br/>
+                    Thursday: 8AM-8PM <br/>
+                    Friday: 8AM-8PM <br/>
+                    Saturday: 8AM-8PM 
+                </time>
+            </div>
+            <div class="col">
+                <p>
+                    We are open Monday to Saturday from 8am to 8PM <br/><br/>
+                    We are closed on Sundays <br/><br/>
+                    Our Drive Thru is now open during regular buisness hours! <br/><br/>
+                    Order online by pressing the button below.
+                </p>
+                <a href="order.html"><button class="btn btn-warning fa fa-shopping-bag"> Order Now</button></a>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-md-10">
+                <h2>Contact Us With Your Questions And Comments</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="row form-group">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter Your First Name"/>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter Your Last Name"/>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <label for="telNum" class="col-md-2 col-form-label">Phone Num.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code"/>
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" id="telNum" name="telNum" placeholder="Phone Number"/>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email Address"/>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group"> 
+                        <label for="orderNum" class="col-md-2 col-form-label">Order Num.</label>
+                        <div class="col-md-10">
+                            <input type="number" class="form-control" id="orderNum" name="orderNum" placeholder="Order Number (Optional)" />
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <div class="col offset-md-2">
+                            Do you need a reply?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="replyYes" name="replyRadios" value="yes" />
+                                <label for="replyYes" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="replyNo" name="replyRadios" value="no" />
+                                <label for="replyNo" class="form-check-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <label for="message" class="col-md-2 col-form-label">Your Message</label>
+                        <div class="col-md-10">
+                            <textarea id="message" class="form-control" name="message" rows="8" placeholder="Enter your message here"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row form-group">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
-    <p>This is the CONTACT page</p>
-
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
@@ -93,7 +203,7 @@
                 </div>
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-link" href=""><i class="fa fa-phone"></i>1-909-555-1234</a><br/>
-                    <a role="button" class="btn btn-link" href=""><i class="fa fa-envelope"></i>lenosemail@email.com</a>
+                    <a role="button" class="btn btn-link" href=""><i class="fa fa-envelope"></i>placeholder@email.com</a>
                 </div>
             </div>
         </div>
@@ -103,7 +213,7 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+<script src="js/scripts.js"></script>
 </body>
 
 

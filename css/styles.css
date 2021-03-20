@@ -1,26 +1,31 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: white;
 }
 
 h1, h2, h3 {
     font-family: "Poppins", sans-serif;
 }
 
+h2 {
+    color: darkorange;
+}
+
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(white, #CAB690);
     padding: 20px;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, orange, yellow);
+    background-color: #C48B17; 
     color: white;
 }
 
 .navbar {
-    background-color: darkorange;
+    background-color: #CAB690;
 }
 
 a, a:hover {
@@ -37,4 +42,15 @@ a, a:hover {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+
+.carousel {
+    border: solid #0B2357
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
